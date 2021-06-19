@@ -53,3 +53,19 @@ strong{
 	padding: 10px;
 }
 
+.menu li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+.menu li a{
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	color: #190e1b;
+}
+
+.menu ul{
+	background-color: bisque;
+	padding: 10px;
+	margin:10px 0 150px 50px;
+}
+
