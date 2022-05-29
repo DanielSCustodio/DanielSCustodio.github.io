@@ -1,5 +1,6 @@
 import React from "react";
 import ButtonToggle from "../components/ButtonToggle";
+import LinksHeader from "../templates/LinksHeader";
 import LogoMenu from "../templates/LogoMenu";
 const Header = () => {
   return (
@@ -7,6 +8,7 @@ const Header = () => {
       <section className="container">
         <LogoMenu />
         <ButtonToggle />
+        <LinksHeader />
       </section>
     </nav>
   );
