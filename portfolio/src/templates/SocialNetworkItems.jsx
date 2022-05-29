@@ -1,16 +1,17 @@
 import React from 'react'
 import socialNetwork from '../data/socialNetwork';
-import teste from '../img/social-media/facebook.png';
+import './style/socialnetworkitems.css';
+
 const SocialNetworkItems = () => {
   const data = socialNetwork;
   return (
 
-    <section className="text-center container-redesocial">  {/* Inserir css container-redesocial */ }
+    <section className="text-center card-redesocial">
       { data.map( ( { id, link, image, name } ) => (
-        <div key={ id }>
-          <a href={ link } target="_blank">
-            <img src={ image } alt={ name } className="img-redesocial" /> {/* Inserir css img-redesocial */ }
-            <p className="p-redesocial">{ name }</p> {/* Inserir css p-redesocial */ }
+        <div key={ id } className="container-redesocial__item">
+          <a href={ link } target="_blank" className="container-redesocial__link">
+            <img src={ image } alt={ name } className="container-redesocial__img" />
+            <p className="container-redesocial__text">{ name }</p>
           </a>
         </div>
       ) ) }

@@ -1,12 +1,11 @@
 import React from 'react'
 import logo from '../img/logo-site/logo-site.png';
-
+import './style/logomenu.css';
 const LogoMenu = () => {
   return (
-    <section>
+    <section className="container-logo">
       <a href="#">
-        <img src={ logo } style={ { width: "50px" } } alt="Logo Daniel Custódio" />
-
+        <img src={ logo } className="container-logo__item" alt="Logo Daniel Custódio" />
       </a>
     </section>
   )

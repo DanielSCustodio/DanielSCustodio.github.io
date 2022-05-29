@@ -1,0 +1,12 @@
+.navigation-link{
+color: #09D1FC !important;
+}
+
+.navigation-link:hover{
+  color: #69e3ff !important;
+  text-decoration: underline  #69e3ff 4px;
+}
+
+.navigation-item {
+  margin: 0 15px;
+}

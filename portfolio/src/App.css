@@ -1,3 +1,5 @@
-.color-bg {
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=PT+Sans+Narrow:wght@700&display=swap');
+.body {
+  font-family: 'PT Sans Narrow', sans-serif !important;
   background: linear-gradient(-45deg, #1A0E1F, #131212) !important;
 }

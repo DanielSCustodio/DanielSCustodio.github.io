@@ -1,0 +1,20 @@
+.container-social-network{
+  border-radius: 10px !important;
+  border: solid 1px #09D1FC !important;
+  box-shadow: rgba(255, 255, 255, 0.3) 0px 1px 2px 0px, rgba(187, 190, 193, 0.15) 0px 1px 3px 1px;
+}
+
+.bg-purple-degrade {
+  background: linear-gradient(-45deg, #000000, #201222);
+  border-bottom: solid 1px #09D1FC;
+}
+
+.social-network-text{
+  color: #09D1FC !important;
+}
+
+@media(max-width: 768px){
+  .container-social-network{
+    width: 30%;
+  }
+}
