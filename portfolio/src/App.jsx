@@ -10,7 +10,7 @@ const App = () => {
     document.body.appendChild( script );
   }, [] )
   return (
-    <main className="body" style={ { height: '200vh' } }>
+    <main className="body" style={ { height: '300vh' } }>
       <Sections />
     </main>
   );
