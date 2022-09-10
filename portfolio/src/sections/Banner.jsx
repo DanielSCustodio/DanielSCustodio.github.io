@@ -11,7 +11,7 @@ const Banner = () => {
       <img className="container-banner__photo" src={ myImage } />
       <section>
         <h1 className="jumbotron-heading container-banner__title">Daniel Custódio</h1>
-        <p class="lead text-muted">Desenvolvedor full stack, formado em Análise e Desenvolvimento de Sistemas</p>
+        <p class="lead text-muted">Desenvolvedor Full Stack, formado em Análise e Desenvolvimento de Sistemas</p>
         <a href="#contato" class="btn btn-outline-light my-2 container-banner__btn">Contato</a>
         <nav className="container-banner__list-icons">
           <a href="https://github.com/DanielSCustodio" target="_blank">
